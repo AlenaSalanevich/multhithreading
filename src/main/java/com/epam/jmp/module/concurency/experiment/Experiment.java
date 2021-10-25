@@ -1,4 +1,4 @@
-package com.epam.jmp.module.concurency;
+package com.epam.jmp.module.concurency.experiment;
 
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
@@ -37,6 +37,7 @@ public class Experiment  {
                 sum(map);
             } catch (ConcurrentModificationException e) {
                 failsCount.getAndIncrement();
+
             }
         });
         second.start();

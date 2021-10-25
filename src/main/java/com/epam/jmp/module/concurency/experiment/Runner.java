@@ -1,4 +1,4 @@
-package com.epam.jmp.module.concurency;
+package com.epam.jmp.module.concurency.experiment;
 
 
 public class Runner {
